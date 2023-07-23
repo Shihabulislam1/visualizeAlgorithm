@@ -150,8 +150,8 @@ document.getElementById("random-data").addEventListener("click", function () {
 
 document.getElementById("sound").addEventListener("click", function () {
   if (this.classList.contains("line-through")) {
-    swooshAudio.volume = 0.3;
-    completeAudio.volume = 0.3;
+    swooshAudio.volume = 0.8;
+    completeAudio.volume = 0.8;
   } else {
     swooshAudio.volume = 0;
     completeAudio.volume = 0;
